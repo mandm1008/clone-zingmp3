@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  background-color: var(--layout-bg);
+
+  i {
+    cursor: pointer;
+  }
+}
+
+.icon {
+  margin: 0 20px;
+}
+
+.search-ctn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 52px;
+}
+
+// action
+.action {
+  display: flex;
+  align-items: center;
+}

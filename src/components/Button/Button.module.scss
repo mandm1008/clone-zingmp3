@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--hover-bg);
+  opacity: 0.8;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  & ~ .wrapper {
+    margin-left: 10px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .primary {
+    color: var(--primary);
+  }
+
+  .hoverPrimary {
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}

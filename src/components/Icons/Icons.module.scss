@@ -1,0 +1,205 @@
+// main css
+.icon {
+  display: block;
+  color: var(--text-color);
+}
+
+.icon::before {
+  font-family: 'mp3-zing' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-feature-settings: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+// icons css
+
+// sidebar
+.library-music::before {
+  content: '\e906';
+}
+
+.zing::before {
+  content: '\e905';
+}
+
+.zing-chart::before {
+  content: '\e902';
+}
+
+.radio-music::before {
+  content: '\e924';
+}
+
+.follower::before {
+  content: '\e903';
+}
+
+.music::before {
+  content: '\e908';
+}
+
+.menu::before {
+  content: '\e904';
+}
+
+.star::before {
+  content: '\e925';
+}
+
+.star-full::before {
+  content: '\e005';
+}
+
+.mv::before {
+  content: '\e907';
+}
+
+.add::before {
+  content: '\62';
+}
+
+.edit::before {
+  content: '\33';
+}
+
+// header
+.back::before {
+  content: '\25';
+}
+
+.forward::before {
+  content: '\22';
+}
+
+.search::before {
+  content: '\e000';
+}
+
+.clear::before {
+  content: '\6f';
+}
+
+.trend::before {
+  content: '\37';
+}
+
+.history::before {
+  content: '\2a';
+}
+
+.vip::before {
+  content: '\ea73';
+}
+
+.vip-radius::before {
+  content: '\ea6e';
+}
+
+.setting::before {
+  content: '\e001';
+}
+
+.block::before {
+  content: '\e9d1';
+}
+
+.quaility::before {
+  content: '\e9f3';
+}
+
+.info::before {
+  content: '\e9e4';
+}
+
+.report::before {
+  content: '\e9c8';
+}
+
+.phone::before {
+  content: '\e9c4';
+}
+
+.ads::before {
+  content: '\e9c2';
+}
+
+.text::before {
+  content: '\e9c5';
+}
+
+.sheld::before {
+  content: '\e983';
+}
+
+.go-r::before {
+  content: '\41';
+}
+
+.upload::before {
+  content: '\21';
+}
+
+.logout::before {
+  content: '\3a';
+}
+
+// player
+.like::before {
+  content: '\3b';
+}
+
+.like-full::before {
+  content: '\3c';
+}
+
+.more::before {
+  content: '\4a';
+}
+
+.repeat::before {
+  content: '\59';
+}
+
+.prev::before {
+  content: '\56';
+}
+
+.play::before {
+  content: '\5f';
+}
+
+.play-no::before {
+  content: '\5e';
+}
+
+.next::before {
+  content: '\4e';
+}
+
+.shuffle::before {
+  content: '\e003';
+}
+
+.restore::before {
+  content: '\30';
+}
+
+.karaoke::before {
+  content: '\46';
+}
+
+.volume::before {
+  content: '\e009';
+}
+
+.pause::before {
+  content: '\3f';
+}
+
+.list-music::before {
+  content: '\49';
+}

@@ -1,0 +1,29 @@
+.tippy {
+  margin-left: 10px;
+}
+
+.menu-tippy {
+  padding: 10px 0;
+  background-color: var(--primary-bg);
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+  min-width: 240px;
+}
+
+.menu-item {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 16px;
+
+  &:hover {
+    background-color: var(--hover-bg);
+  }
+
+  &.submenu {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

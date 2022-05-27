@@ -1,0 +1,10 @@
+.icon {
+  background-color: transparent;
+
+  &:hover {
+    background-color: var(--hover-bg);
+  }
+  &.hoverPrimary:hover {
+    background-color: transparent;
+  }
+}

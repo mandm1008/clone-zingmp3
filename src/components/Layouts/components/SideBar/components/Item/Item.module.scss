@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 700;
+  border-left: 4px solid transparent;
+  padding: 8px 25px;
+  text-decoration: none;
+  color: var(--text-color);
+  opacity: 0.8;
+  cursor: pointer;
+
+  .play-icon {
+    display: none;
+    position: absolute;
+    right: 20px;
+  }
+
+  .play-icon.active {
+    display: block;
+  }
+
+  &.active {
+    border-color: var(--primary);
+    background-color: var(--hover-bg);
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+  &:hover .play-icon {
+    display: block;
+  }
+}
+
+.title {
+  margin: 0 12px;
+  white-space: nowrap;
+  line-height: normal;
+}

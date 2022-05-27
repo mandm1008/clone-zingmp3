@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+// logo
+.logo {
+  padding: 12px 28px;
+
+  img {
+    width: 120px;
+    height: 40px;
+  }
+
+  img:hover {
+    -webkit-filter: brightness(0.9);
+    filter: brightness(0.9);
+  }
+}
+
+.sub-side {
+  flex: 1;
+  overflow-y: scroll;
+  margin-bottom: 54px;
+}

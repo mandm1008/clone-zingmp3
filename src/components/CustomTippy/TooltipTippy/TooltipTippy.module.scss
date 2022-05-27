@@ -1,0 +1,12 @@
+.tippy {
+  font-size: 11px;
+  line-height: 1.3;
+
+  & ~ .tippy {
+    margin-left: 10px;
+  }
+
+  &.nomg {
+    margin-left: 0;
+  }
+}

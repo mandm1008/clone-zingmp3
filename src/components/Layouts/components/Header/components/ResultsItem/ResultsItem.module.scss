@@ -1,0 +1,63 @@
+.results {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 8px 10px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+
+  img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+  }
+
+  .artist {
+    border-radius: 50%;
+  }
+
+  &:hover {
+    background-color: var(--hover-bg);
+  }
+
+  &:hover .play-icon {
+    display: flex;
+  }
+}
+
+.results-content {
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.results-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.results-sub-title {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-sub-color);
+}
+
+.play {
+  position: relative;
+  border-radius: 4px;
+}
+
+.play-icon {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  background-color: var(--hover-bg);
+  padding: 20px;
+  border-radius: 4px;
+}
